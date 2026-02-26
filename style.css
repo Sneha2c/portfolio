@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f7efe5; /* nude background */
+    margin: 0;
+    color: #5c4b43;
+}
+
+header {
+    background: #e8d5c4; /* soft nude */
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background: #d9c2ad;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: #5c4b43;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #a07855;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    background: #fffaf6;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.skill-box {
+    background: #efe2d6;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+.profile-pic {
+    width: 200px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 15px;
+}
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.contact-box {
+    background: #fffaf6;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    font-size: 16px;
+}
